@@ -27,9 +27,9 @@ kubectel get pods
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx
+  name: myapp-pod
   labels:
-    app: nginx
+    app: myapp
     type: front-end
 spec:
   containers:
@@ -49,13 +49,13 @@ kubectl describe pod nginx
 ```shell
 
 ```text
-Name:             nginx
+Name:             myapp-pod
 Namespace:        default
 Priority:         0
 Service Account:  default
 Node:             node2/10.25.140.6
 Start Time:       Sat, 27 Apr 2024 16:01:26 +0900
-Labels:           app=nginx
+Labels:           app=myapp
                   type=front-end
 Annotations:      cni.projectcalico.org/containerID: 5fdad88753d2ed8c81d204d31df07c3837f4c3807d7c718a8afa71630c98e4f5
                   cni.projectcalico.org/podIP: 192.168.104.6/32
