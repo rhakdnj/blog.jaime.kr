@@ -4,9 +4,13 @@ sidebar_position: 3
 
 ## Deployment
 
-```shell
-kubectl explain deployment
-```
+:::info
+
+`kubectl explain deployment`
+
+- `kubectl scale deployment nginx --replicas=4`
+
+:::
 
 ### deployment-definition.yaml
 
