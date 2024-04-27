@@ -3,9 +3,9 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
+  title: 'Jaime',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/penguin.png',
 
   // Set the production url of your site here
   url: 'https://blog.jaime.kr',
@@ -58,17 +58,23 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Jaime',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/penguin.png',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'beSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'BE',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'devopsSidebar',
+          position: 'left',
+          label: 'DevOps',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -85,8 +91,12 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'BE',
+              to: '/docs/backend/intro',
+            },
+            {
+              label: 'DevOps',
+              to: '/docs/devops/intro',
             },
           ],
         },
@@ -121,7 +131,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Jaime.`,
     },
     prism: {
       theme: prismThemes.github,
