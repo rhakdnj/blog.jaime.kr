@@ -6,6 +6,7 @@ sidebar_position: 1
 
 ```bash
 kubectel run nginx --image=nginx
+kubectl run redis --image=redis:alpine --labels=tier=db
 
 kubectel get pods
 ```
