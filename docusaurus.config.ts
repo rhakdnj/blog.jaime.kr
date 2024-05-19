@@ -76,6 +76,12 @@ const config: Config = {
           position: 'left',
           label: 'DevOps',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'devtoolsSidebar',
+          position: 'left',
+          label: 'DevTools',
+        },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/rhakdnj/blog.jaime.kr',
