@@ -1,0 +1,8 @@
+{
+  "label": "HAProxy",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "To learn the most important HAProxy concepts."
+  }
+}
