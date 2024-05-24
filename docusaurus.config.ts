@@ -78,6 +78,12 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
+          sidebarId: 'reviewSidebar',
+          position: 'left',
+          label: 'Review',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'devtoolsSidebar',
           position: 'left',
           label: 'DevTools',
@@ -104,6 +110,10 @@ const config: Config = {
               label: 'DevOps',
               to: '/docs/devops/intro',
             },
+            {
+              label: 'Review',
+              to: '/docs/review/intro',
+            }
           ],
         },
         {
