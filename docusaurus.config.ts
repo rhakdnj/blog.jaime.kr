@@ -44,8 +44,7 @@ const config: Config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/rhakdnj/blog.jaime.kr/issues',
+          editUrl: 'https://github.com/rhakdnj/blog.jaime.kr/issues',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -68,7 +67,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'beSidebar',
           position: 'left',
-          label: 'BE',
+          label: 'Backend',
         },
         {
           type: 'docSidebar',
@@ -88,7 +87,11 @@ const config: Config = {
           position: 'left',
           label: 'DevTools',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          to: '/blog',
+          label: 'Blog',
+          position: 'left'
+        },
         {
           href: 'https://github.com/rhakdnj/blog.jaime.kr',
           label: 'GitHub',
@@ -103,7 +106,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'BE',
+              label: 'Backend',
               to: '/docs/backend/intro',
             },
             {
